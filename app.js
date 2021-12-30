@@ -4,7 +4,7 @@ var txtInput = document.querySelector("#txt-input");
 
 var outputDiv = document.querySelector("#output");
  
-var serverURL = "https://api.funtranslations.com/translate/ebonics.json?text="
+var serverURL = "https://api.funtranslations.com/translate/pirate.json?text="
 
 function getTranslatedURL(text) {
     return serverURL + text;
